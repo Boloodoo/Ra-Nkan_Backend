@@ -1,5 +1,5 @@
 env:
-	cp .env.env .env
+	cp env.env .env
 
 c_m:
 	#create a new migration
