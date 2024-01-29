@@ -1,3 +1,6 @@
+env:
+	cp .env.env .env
+
 c_m:
 	#create a new migration
 	migrate create -ext sql -dir db/migrations -seq $(name)
